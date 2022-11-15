@@ -1,0 +1,40 @@
+.pts {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* background-color: violet; */
+}
+
+.pts2 {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* background-color: violet; */
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+  .pts {
+    max-width: 320px;
+    margin: 0 auto;
+    /* background-color: violet; */
+  }
+
+  .pts2 {
+    max-width: 320px;
+    margin: 0 auto;
+    /* background-color: violet; */
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .pts {
+    max-width: 320px;
+    margin: 0 auto;
+    /* background-color: violet; */
+  }
+
+  .pts2 {
+    height: 200px;
+    max-width: 320px;
+    margin: 0 auto;
+    /* background-color: violet; */
+  }
+}

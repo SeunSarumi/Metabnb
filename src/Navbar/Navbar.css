@@ -1,0 +1,183 @@
+/* Scaling
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more — Extra large screens, TV
+
+*/
+
+.nav {
+  /* background-color: lightblue; */
+  height: 48px;
+  width: 1240px;
+  margin-top: 40px;
+  display: flex;
+  gap: 150px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hlogo {
+  margin-top: 10px;
+  height: 36.37px;
+  width: 41.99px;
+}
+
+.nlogo {
+  height: 32.19px;
+  width: 188.1px;
+  margin-top: 10px;
+  left: 19.21%;
+}
+
+.links,
+.lin {
+  font-size: 20px;
+  margin-top: 10px;
+  display: flex;
+  color: #434343;
+  text-decoration: none;
+  margin-left: 10px;
+  display: flex;
+  gap: 30px;
+}
+
+.wallet-btn {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border-radius: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  /* height: 48px; */
+  /* width: 170px; */
+  display: inline-block;
+  padding: 11px 35px;
+  line-height: 20px;
+  font-style: normal;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media (max-width: 480px) {
+  .nav {
+    /* background-color: red; */
+    width: 200px;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    /* margin-left: 20px; */
+  }
+
+  .hlogo {
+    /* margin-left: 50%; */
+    margin-top: 10px;
+    height: 36.37px;
+    width: 41.99px;
+  }
+
+  .nlogo {
+    /* margin-left: 40%; */
+    height: 32.19px;
+    width: 188.1px;
+    margin-top: 10px;
+    left: 19.21%;
+  }
+
+  .links,
+  .lin {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    display: flex;
+    color: #434343;
+    text-decoration: none;
+    /* margin-left: 30px; */
+    display: flex;
+    gap: 30px;
+  }
+
+  .wallet-btn {
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    /* height: 48px; */
+    /* width: 170px; */
+    display: inline-block;
+    padding: 11px 35px;
+    line-height: 20px;
+    font-style: normal;
+    /* padding-bottom: 10px; */
+    padding-top: 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    /* left: 100px; */
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .nav {
+    /* background-color: lightblue; */
+    height: 48px;
+    width: 1240px;
+    margin-top: 40px;
+    display: flex;
+    gap: 150px;
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .hlogo {
+    margin-top: 10px;
+    height: 36.37px;
+    width: 41.99px;
+  }
+
+  .nlogo {
+    height: 32.19px;
+    width: 188.1px;
+    margin-top: 10px;
+    left: 19.21%;
+  }
+
+  .links,
+  .lin {
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    color: #434343;
+    text-decoration: none;
+    margin-left: 10px;
+    display: flex;
+    gap: 30px;
+  }
+
+  .wallet-btn {
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    /* height: 48px; */
+    /* width: 170px; */
+    display: inline-block;
+    padding: 11px 35px;
+    line-height: 20px;
+    font-style: normal;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    cursor: pointer;
+  }
+}
